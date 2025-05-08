@@ -1,5 +1,5 @@
 import React from 'react';
-import { Endpoint } from '../types';
+import { Endpoint } from '../types/index';
 
 interface EndpointsListProps {
   endpoints: Endpoint[];

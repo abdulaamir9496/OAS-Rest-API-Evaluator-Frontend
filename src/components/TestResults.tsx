@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Download, ChevronDown, ChevronUp, CheckCircle, XCircle } from 'lucide-react';
-import { TestResult } from '../types';
+import { TestResult } from '../types/index';
 
 interface TestResultsProps {
   results: TestResult[];
