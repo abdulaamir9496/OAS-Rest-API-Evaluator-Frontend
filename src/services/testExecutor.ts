@@ -2,7 +2,9 @@ import axios, { AxiosResponse } from "axios";
 import { Endpoint, TestResult } from "../types";
 import { generateDummyData } from "./dummyDataGenerator";
 
-const API_URL = "http://localhost:5000/api";
+// const API_URL = "https://oas-rest-api-evaluator-backend.onrender.com/api";
+const API_URL = "https://oas-rest-api-evaluator-backend.onrender.com/api";
+
 
 export async function executeTests(
     endpoints: Endpoint[],
@@ -206,7 +208,7 @@ function generatePathParamValue(paramName: string): string {
 // import { Endpoint, TestResult } from "../types";
 // import { generateDummyData } from "./dummyDataGenerator";
 
-// const API_URL = "http://localhost:5000/api";
+// const API_URL = "https://oas-rest-api-evaluator-backend.onrender.com/api";
 
 // export async function executeTests(
 //     endpoints: Endpoint[],
@@ -351,7 +353,7 @@ function generatePathParamValue(paramName: string): string {
 // import { Endpoint, TestResult } from '../types';
 // import { generateDummyData } from './dummyDataGenerator';
 
-// const API_URL = 'http://localhost:5000/api';
+// const API_URL = 'https://oas-rest-api-evaluator-backend.onrender.com/api';
 
 // export async function executeTests(
 //   endpoints: Endpoint[],

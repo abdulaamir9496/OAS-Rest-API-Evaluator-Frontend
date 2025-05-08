@@ -47,7 +47,7 @@ npm run dev
 
 ## Frontend Setup
 
-Ensure your frontend makes API calls to the backend server at `http://localhost:5000/api`.
+Ensure your frontend makes API calls to the backend server at `https://oas-rest-api-evaluator-backend.onrender.com/api`.
 
 1. Update the `testExecutor.ts` file to match the provided code
 2. Update the `openApiParser.ts` file

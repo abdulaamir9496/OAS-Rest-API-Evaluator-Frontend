@@ -8,7 +8,7 @@ import { executeTests } from '../services/testExecutor';
 import { Endpoint, TestResult } from '../types';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://oas-rest-api-evaluator-backend.onrender.com/api';
 
 const ApiTester: React.FC = () => {
     const [specUrl, setSpecUrl] = useState<string>('https://petstore.swagger.io/v2/swagger.json');
